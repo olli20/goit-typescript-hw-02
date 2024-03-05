@@ -5,7 +5,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
   "dependencies": {
     "typescript": "^5.1.5"
   }
+  
 }
