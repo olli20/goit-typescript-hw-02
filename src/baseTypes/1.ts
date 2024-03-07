@@ -1,6 +1,6 @@
 // Перетворіть цей код на TypeScript, вказавши відповідні типи для всіх змінних.
 
-let age: number = 50;
+let age: number = 50; // явна типізація
 let name: string = 'Max';
 let toggle: boolean = true;
 let empty: null = null;
