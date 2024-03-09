@@ -15,14 +15,4 @@ const isWeekend = (tag: Tages): boolean => tag === Tages.SA || tag === Tages.SO;
 //   }
 // }
 
-// const isWeekend = (tag: Tages): boolean => {
-//   if (tag === Tages.MO || tag === Tages.DI || tag === Tages.MI || tag === Tages.DO || tag === Tages.FR) {
-//     return false;
-//   } else if (tag === Tages.SA || tag === Tages.SO) {
-//     return true;
-//   }
-// }
-
-console.log(isWeekend(Tages.MO));
-
 export {};
